@@ -3,7 +3,8 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-      int n = 5;
+        System.out.print("Enter num:");
+        int n = in.nextInt();
         for(int i=n;i>=0;i--) {
             for(int j=0;j<n-i;j++) {
                 System.out.print("  ");
