@@ -16,14 +16,6 @@ class Main {
                     System.out.print(false);
                     return;
                 }
-            if (s2.charAt(j) == c1 && s1.charAt(j) != c2) {
-                    System.out.print(false);
-                    return;
-                }
-                  if (s1.charAt(j) == c2 && s2.charAt(j) != c1) {
-                    System.out.print(false);
-                    return;
-                }            }
         }
         System.out.print(true);
         }
